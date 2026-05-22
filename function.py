@@ -245,4 +245,17 @@ def sum(n):
 
 sum(5)
 
+def  reverse_number(n):
+    if list(str(n)).copy()==list(str(n)).reverse():
+        print("this is actual number")
+    else:
+        print("this is not actual number")
 
+reverse_number([12321])
+
+
+def find():
+    print("i am jyotir")
+    return "found"
+
+find()
