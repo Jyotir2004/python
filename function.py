@@ -236,5 +236,13 @@ def say_good_morning():
 
 say_good_morning()
 
+def sum(n):
+    add=0
+    for i in range(1,n+1):
+        add+=i
+    print("the sum is",add)
+    return add
+
+sum(5)
 
 
