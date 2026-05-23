@@ -259,3 +259,317 @@ def find():
     return "found"
 
 find()
+
+
+def addition(a,b):
+    add=a+b
+    print("the addition is",add)
+    return add
+
+addition(5,10)
+
+
+def substraction(a,b):
+    minus=a-b
+    print("the substraction is",minus)
+    return minus
+
+substraction(10,5)
+
+
+def multiplication(a,b):
+    print(a*b)
+    return a*b
+
+
+multiplication(5,6)
+
+
+def division(a,b):
+    if b==0:
+        print("0 division error")
+    else:
+        print(a/b)
+        return a/b
+
+division(10,5)
+
+def modulus(a,b):
+    if b==0:
+        print("0 division error")
+    else:
+        print(a%b)
+        return a%b
+
+modulus(10,3)
+
+def power(a,b):
+    print(a**b)
+    return a**b
+
+power(2,3)
+
+
+def floor_division(a,b):
+    if b==0:
+        print("0 division error")
+
+    else:
+        print(a//b)
+        return a//b
+
+floor_division(10,3)
+
+
+def average(a,b,c):
+    print((a+b+c))
+    return (a+b+c)/3
+
+average(10,20,30)
+
+
+
+def maximum(a,b=10):
+    if a>b:
+        print("the maximum is",a)
+        return a
+    else:
+        print("the maximum is",b)
+        return b
+
+maximum(20)
+
+
+def minimum(a,b=7):
+    if a<b:
+        print("the minimum is",a)
+        return a
+    else:
+        print("the minimum is",b)
+        return b
+
+minimum(20)
+
+def equal(b,a=10):
+    if a==b:
+        print("the numbers are equal")
+        return True
+    else:
+        print("the numbers are not equal")
+        return False
+
+equal(10)
+
+
+def addition(b,a=10):
+    add=a+b
+    print("the addition is",add)
+    return add
+    
+
+addition(5)
+
+
+def greet():
+    print("hello, welcome to python programming")
+    return "greeted"
+
+def op():
+    print("winner winner chicken dinner")
+
+op()
+
+def say_hello():
+    print("hello, how are you?")
+    return "greeted"
+
+say_hello()
+
+
+def lambai(list):
+    print(len(list))
+    return len(list)
+
+list1=[1,2,3,4,5]
+list2=[6,7,8,9,10]
+
+lambai(list1)
+lambai(list2)
+
+
+def fact(n):
+    fact=1
+    for i in range(1,n+1):
+        fact*=i
+    print("the factorial is",fact)
+    return fact
+
+fact(5)
+
+
+def currency_calc(usd_val):
+    inr_val=usd_val*88
+    print("the value in INR is",inr_val,"usd_val",usd_val)
+    return inr_val,usd_val
+
+currency_calc(100)
+
+
+def fibonacci(n):
+    a,b=0,1
+    for i in range(n):
+        print(a,end=" ")
+        a,b=b,a+b
+
+fibonacci(10)
+
+
+def area_of_square(side):
+    area=side*side
+    print("the area of the square is",area)
+    return area
+
+area_of_square(5)
+
+def area_of_rect(length,breadh):
+    area=length*breadh
+    print("the area of the rectangle is",area)
+    return area
+
+area_of_rect(5,10)
+
+
+def area_of_circle(radius):
+    area=3.14*radius*radius
+    print("the area of the circle is",area)
+    return area
+
+area_of_circle(5)
+
+
+def category(n):
+    if n>=1 and n<20:
+        print("teen")
+    elif n>=20 and n<30:
+        print("young adult")
+    elif n>=30 and n<50:
+        print("adult")
+    else:
+        print("senior")
+
+category(10)
+
+
+def is_even(n):
+    if n%2==0:
+        print(n,"is even")
+        return True
+    else:
+        print(n,"is odd")
+        return False
+    
+is_even(10)
+
+
+def is_prime(n):
+    if n%n==0:
+        print(n,"is prime")
+        return True
+
+    else:
+        print(n,"is not prime")
+        return False
+
+is_prime(10)
+
+def is_palindrome(s):
+     list(s).copy()
+     if list(s)==list(reversed(s)):
+        print("the list is palindrome")
+        return True
+
+   
+is_palindrome([1,2,3,2,1])
+
+def say_good_morning():
+    print("good morning")
+    return "greeted"
+
+say_good_morning()
+
+def sum(n):
+    add=0
+    for i in range(1,n+1):
+        add+=i
+    print("the sum is",add)
+
+sum(5)
+
+
+def reverse_number(n):
+    if list(str(n))==list(reversed(str(n))):
+        print("this is actual number")
+    else:
+        print("this is not actual number")
+
+reverse_number(12321)
+
+
+def find():
+    print("i am jyotir")
+    return "found"
+
+find()
+
+
+def calc(n,op):
+    if op=="+":
+        print("result is",n+n)
+        return n+n
+
+    elif op=="-":
+        print("result is",n-n)
+        return n-n
+
+    elif "*":
+        print("result is",n*n)
+        return n*n
+
+    elif "/":
+        if n==0:
+            print("0 division error")
+        else:
+            print("result is",n/n)
+            return n/n
+
+calc(5,"+")
+calc(5,"-")
+calc(5,"*")
+calc(5,"/")
+
+def greet():
+    print("hello","welcome to python programming")
+    return "greeted"
+
+greet()
+
+def calc(n):
+    if "+":
+        print("result is",n+n)
+        return n+n
+    elif "-":
+        print("result is",n-n)
+        return n-n
+
+    elif "*":
+        print("result is",n*n)
+        return n*n
+    
+    elif "/":
+        if n==0:
+            print("0 division error")
+        else:
+            print("result is",n/n)
+            return n/n
+
+calc(5)
